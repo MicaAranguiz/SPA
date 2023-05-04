@@ -82,30 +82,30 @@ function App() {
               </a>
             </div>
             <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-              <h5>Links</h5>
+              <h5>Inicio</h5>
               <ul class="list-unstyled">
-                <li class="mb-2"><a href="/">Home</a></li>
+                <li class="mb-2"><a href="/inicio">INICIO</a></li>
               
               </ul>
             </div>
             <div class="col-6 col-lg-2 mb-3">
-              <h5>Guides</h5>
+              <h5>Lista de productos</h5>
               <ul class="list-unstyled">
-                <li class="mb-2"><a href="/docs/5.3/getting-started/">Getting started</a></li>
+                <li class="mb-2"><a href="/productos">PRODUCTOS</a></li>
                
               </ul>
             </div>
             <div class="col-6 col-lg-2 mb-3">
-              <h5>Projects</h5>
+              <h5>Contactanos</h5>
               <ul class="list-unstyled">
-                <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
+                <li class="mb-2"><a href="/contacto">CONTACTO</a></li>
                
               </ul>
             </div>
             <div class="col-6 col-lg-2 mb-3">
-              <h5>Community</h5>
+              <h5>Nosotros</h5>
               <ul class="list-unstyled">
-                <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+                <li class="mb-2"><a href="/acerca">ACERCA DE NOSOTROS</a></li>
                 
               </ul>
             </div>
