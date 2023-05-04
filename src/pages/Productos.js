@@ -19,13 +19,6 @@ function Productos() {
                 <Card img={card4} titulo="Temporada Otoño-Inivierno" descripcion="Las mejores zapatillas de la temporada" />
                 <Card img={card5} titulo="Temporada Otoño-Inivierno" descripcion="Las mejores zapatillas de la temporada" />
             </div>
-            <div class="disposicion">
-                <Card img={card1} titulo="Temporada Otoño-Inivierno" descripcion="Las mejores zapatillas de la temporada" />
-                <Card img={card1} titulo="Temporada Otoño-Inivierno" descripcion="Las mejores zapatillas de la temporada" />
-                <Card img={card1} titulo="Temporada Otoño-Inivierno" descripcion="Las mejores zapatillas de la temporada" />
-                <Card img={card1} titulo="Temporada Otoño-Inivierno" descripcion="Las mejores zapatillas de la temporada" />
-                <Card img={card1} titulo="Temporada Otoño-Inivierno" descripcion="Las mejores zapatillas de la temporada" />
-            </div>
         </>
     )
 }

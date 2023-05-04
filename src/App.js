@@ -2,16 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Inicio from './pages/Inicio';
-import About from './pages/About';
 import Productos from './pages/Productos';
 import Acerca from './pages/Acerca';
 import Contacto from './pages/Contacto';
 
 import Sidenav from './componentes/Sidenav';
 
-class Welcome extends React.Component {
-  render() {
-   
+class Welcome extends React.Component{
+  render(){
+    return (<h2 className='text-primary'>Hola chicos yo soy un componente de clase bienvenidos.</h2>)
   }
 }
 
@@ -44,9 +43,7 @@ function App() {
                   <li class="nav-item">
                     <a class="nav-link" href="/acerca">Acerca de</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
-                  </li>
+      
                 </ul>
               </div>
             </div>
@@ -65,8 +62,7 @@ function App() {
           </Route>
           <Route path='/acerca' Component={Acerca} >
           </Route>
-          <Route path='/about' Component={About} >
-          </Route>
+        
         </Routes>
       </Router>
 
@@ -82,28 +78,28 @@ function App() {
               </a>
             </div>
             <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-              <h5>Inicio</h5>
+             
               <ul class="list-unstyled">
                 <li class="mb-2"><a href="/inicio">INICIO</a></li>
               
               </ul>
             </div>
             <div class="col-6 col-lg-2 mb-3">
-              <h5>Lista de productos</h5>
+        
               <ul class="list-unstyled">
                 <li class="mb-2"><a href="/productos">PRODUCTOS</a></li>
                
               </ul>
             </div>
             <div class="col-6 col-lg-2 mb-3">
-              <h5>Contactanos</h5>
+              
               <ul class="list-unstyled">
                 <li class="mb-2"><a href="/contacto">CONTACTO</a></li>
                
               </ul>
             </div>
             <div class="col-6 col-lg-2 mb-3">
-              <h5>Nosotros</h5>
+            
               <ul class="list-unstyled">
                 <li class="mb-2"><a href="/acerca">ACERCA DE NOSOTROS</a></li>
                 

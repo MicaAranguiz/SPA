@@ -1,0 +1,9 @@
+.accordion{
+margin:10%;
+}
+.accordion-button{
+   font-weight: 900;
+}
+.accordion-body{
+    text-align: center;
+}

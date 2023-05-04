@@ -19,15 +19,10 @@ function Form() {
                     </div>
                     <div class="row mb-3">
                         <div class="col-sm-10 offset-sm-2">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                </input>   <label class="form-check-label" for="gridCheck1">
-                                        Example checkbox
-                                    </label>
-                            </div>
+                           
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn btn-dark">Sign in</button>
                 </form>
             </div>
         </>

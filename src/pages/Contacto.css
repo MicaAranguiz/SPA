@@ -1,7 +1,10 @@
-
 .todo{
     align-items: center;
     margin-left:25%;
-    margin-top:5%;
+    margin-top:10%;
     width:50%;
+    margin-bottom: 16%;
+}
+button{
+    width:100%;
 }
